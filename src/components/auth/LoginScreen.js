@@ -1,10 +1,11 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+//import {Link} from 'react-router-dom';
 import {useDispatch, useSelector} from 'react-redux';
 import { login, startGoogleLogin, startLoginEmailPassword } from '../../actions/auth'; //aqui traigo la accion
 import {setError, removeError} from '../../actions/ui'
 import validator from 'validator';
 import { useForm } from '../../hooks/useForm';
+import { Link } from 'react-router-dom';
 
 
 export const LoginScreen = () => {

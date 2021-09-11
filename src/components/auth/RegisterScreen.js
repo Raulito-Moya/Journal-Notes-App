@@ -1,10 +1,13 @@
 import React from 'react';
 import {useDispatch, useSelector} from 'react-redux'
-import {Link} from 'react-router-dom';
+
 import { useForm } from '../../hooks/useForm';
 import validator  from 'validator'; //Aqui implemento validator paa validar los campos
 import {setError,removeError} from '../../actions/ui'
 import { startRegisterRegisterWithEmailPasswordName } from '../../actions/auth';
+import { Link } from 'react-router-dom';
+
+
 
 export const RegisterScreen =()=>{
 

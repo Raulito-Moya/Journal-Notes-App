@@ -3,6 +3,7 @@ import { Switch, Route,Redirect} from 'react-router-dom'
 import { LoginScreen } from '../components/auth/LoginScreen'
 import {RegisterScreen} from '../components/auth/RegisterScreen'
 
+
 export const AuthRouter = () => {
    return(
        <div className="auth__main">
