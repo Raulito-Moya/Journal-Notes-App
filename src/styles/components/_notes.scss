@@ -3,6 +3,9 @@
    display: flex;
    flex-direction: column;
    height: 100%;
+   width: 100%;
+  
+
 }
 
 .notes__appbar{
@@ -11,7 +14,9 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px 10px 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
 }
 
 .notes__content{
